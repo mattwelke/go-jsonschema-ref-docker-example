@@ -1,0 +1,15 @@
+{
+  "$id": "person",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The person's first name.",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "pet": { "$ref": "file://./schemas/components/pet.schema.json" }
+  },
+  "required": ["name", "pet"]
+}
