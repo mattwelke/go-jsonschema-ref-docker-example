@@ -1,4 +1,4 @@
-# go-jsonschema-ref-example
+# go-jsonschema-ref-docker-example
 
 Demonstrates using $ref in JSON Schema in Go, including building a Docker image with the schemas so that app will start and be able to load them from disk.
 
