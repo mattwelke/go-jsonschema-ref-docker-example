@@ -1,4 +1,4 @@
-module github.com/mattwelke/go-jsonschema-ref-example
+module github.com/mattwelke/go-jsonschema-ref-docker-example
 
 go 1.17
 
