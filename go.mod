@@ -1,4 +1,4 @@
-module github.com/mattwelke/go-jsonschema-ref-test
+module github.com/mattwelke/go-jsonschema-ref-example
 
 go 1.17
 
