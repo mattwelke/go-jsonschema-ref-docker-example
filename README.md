@@ -1,6 +1,6 @@
-# go-jsonschema-ref-test
+# go-jsonschema-ref-example
 
-Tests using $ref in JSON Schema in Go, including building a Docker image with the schemas so that app will start and be able to load them from disk.
+Demonstrates using $ref in JSON Schema in Go, including building a Docker image with the schemas so that app will start and be able to load them from disk.
 
 ## build and run
 
