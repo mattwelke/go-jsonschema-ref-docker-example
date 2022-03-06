@@ -1,0 +1,21 @@
+{
+  "$id": "https://mattwelke.github.io/go-jsonschema-ref-docker-example/schemas/person.1-0-0.schema.json",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The person's first name.",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "pet": {
+      "$ref": "https://mattwelke.github.io/go-jsonschema-ref-docker-example/schemas/components/pet.1-0-0.schema.json"
+    }
+  },
+  "required": [
+    "name",
+    "pet"
+  ],
+  "additionalProperties": false
+}
