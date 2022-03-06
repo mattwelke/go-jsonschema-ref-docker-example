@@ -1,5 +1,5 @@
 {
-  "$id": "person",
+  "$id": "https://mattwelke.github.io/go-jsonschema-ref-docker-example/schemas/person.schema.json",
   "title": "Person",
   "type": "object",
   "properties": {
@@ -9,7 +9,7 @@
       "minLength": 1,
       "maxLength": 200
     },
-    "pet": { "$ref": "file://./schemas/components/pet.schema.json" }
+    "pet": { "$ref": "https://mattwelke.github.io/go-jsonschema-ref-docker-example/schemas/pet.schema.json" }
   },
   "required": ["name", "pet"]
 }

@@ -1,5 +1,5 @@
 {
-    "$id": "pet",
+    "$id": "https://mattwelke.github.io/go-jsonschema-ref-docker-example/schemas/pet.schema.json",
     "title": "Pet",
     "type": "object",
     "properties": {
